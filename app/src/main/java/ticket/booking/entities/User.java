@@ -3,12 +3,16 @@ package ticket.booking.entities;
 import java.util.List;
 
 public class User {
-    private String name;
-    private String password;
-    private String hashPassword;
-    private List<Ticket> ticketsBooked;
 
     private String userId;
+
+    private String name;
+    private String password;
+
+    private String hashPassword;
+
+    private List<Ticket> ticketsBooked;
+
 
     public User(String name, String password, String hashPassword, List<Ticket> ticketsBooked, String userId) {
         this.name = name;

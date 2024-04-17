@@ -1,29 +1,70 @@
 [
   {
-    "user_id": "abcdef",
-    "name": "Lovepreet Singh",
-    "hashed_password": "12345",
-    "tickets_booked": [
+    "userId": "abcdef" ,
+    "name": "Lovepreet Singh" ,
+    "password": null ,
+    "hashPassword": "12345" ,
+    "ticketsBooked": [
       {
-        "source": "Bangalore",
-        "destination": "Delhi",
-        "date_of_travel": "2023-12-08T18:30:00Z",
+        "ticketId": "12345" ,
+        "userId": "abcdef" ,
+        "source": "Bangalore" ,
+        "destination": "Delhi" ,
+        "dateOfTravel": 1702060200000 ,
         "train": {
-          "train_id": "bacs",
-          "train_no": 12345,
+          "trainId": "bacs" ,
+          "trainNo": "12345" ,
           "seats": [
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0]
-          ],
-          "stations": {
-            "Bangalore": "13:50:00",
-            "Jaipur": "13:50:00",
+            [
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0
+            ] ,
+            [
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0
+            ] ,
+            [
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0
+            ] ,
+            [
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0 ,
+              0
+            ]
+          ] ,
+          "stationTime": {
+            "Bangalore": "13:50:00" ,
+            "Jaipur": "13:50:00" ,
             "Delhi": "13:50:00"
-          }
-        }
+          } ,
+          "stations": null ,
+          "trainInfo": "Train Id: bacs, Train No: 12345"
+        } ,
+        "ticketInfo": "Ticket Id: 12345, User Id: abcdef, Source: Bangalore, Destination: Delhi, Date of Travel: Sat Dec 09 00:00:00 IST 2023, Train: Train Id: bacs, Train No: 12345"
       }
     ]
+  } ,
+  {
+    "userId": "01102f9e-a12b-4247-9909-858a564e1315" ,
+    "name": "rohit" ,
+    "password": "guddu" ,
+    "hashPassword": "$2a$10$SE.4Uyj2nf6jU7iuS6i9/OwovWP33GrbGfsGiQPXLCnivgm/kcKUe" ,
+    "ticketsBooked": []
   }
 ]
